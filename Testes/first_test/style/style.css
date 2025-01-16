@@ -2,20 +2,20 @@
 
 *{
     margin: 0px;
+    padding: 0px;
 }
 
 body{
     background-image: linear-gradient(to top, #1BE0FA 30%, #1BFACA);
     background-attachment: fixed;
+    
 }
 
 header{
     background-color: #1c9afa58;
-    
     padding: 20px;
     text-align: center;
     margin: auto;
-    
 }
 
 header>h1{
@@ -44,7 +44,9 @@ nav>a:hover{
 main{
     background-color: white;
     max-width: 600px;
+    min-width: 300px;
     padding: 10px;
+    padding-right: 15ps;
     margin: auto;
     text-align: justify;
 }
@@ -61,9 +63,27 @@ main p{
     font-size: 1.1em;
     line-height: 1.7em;
 }
-.enquadramento{
-    
+img{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
 }
+div.video{
+    margin: 0px 0px 0px 0px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 90%;
+    max-height: 90%;
+}
+
 footer{
     background-color: black;
     color: white;
