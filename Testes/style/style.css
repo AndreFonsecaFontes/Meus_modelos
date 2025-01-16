@@ -10,8 +10,8 @@ body{
 }
 
 header{
-    background-color: #1C98FA;
-    color: rgb(255, 255, 255);
+    background-color: #1c9afa58;
+    
     padding: 20px;
     text-align: center;
     margin: auto;
@@ -20,10 +20,11 @@ header{
 
 header>h1{
     padding: 13px;
+    font-size: 2.2em;
 }
 
 nav{
-    background-color: #1C98FA;
+     background-color: #1c9afa58;
     padding: 10px 10px 5px 10px;
     margin: auto;
 }
@@ -51,7 +52,23 @@ main h1{
     font-size: larger;
     color: #1B53FA;
     padding: 10px 0px 10px 0px;
+    font-size: 2em;
 }
 main p{
+    margin: 0px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+.enquadramento{
     
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a{
+    color: white;
 }
