@@ -84,7 +84,9 @@ div.video>iframe{
     max-width: 90%;
     max-height: 90%;
 }
-
+p.after_img{
+    padding-top: 10px;
+}
 footer{
     background-color: black;
     color: white;
