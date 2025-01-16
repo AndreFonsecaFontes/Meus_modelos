@@ -2,6 +2,5 @@
 
 body{
     
-    background-image: linear-gradient(to right, purple,rgb(143, 49, 237), blue);
-    background-attachment: fixed;
+    background-image: linear-gradient(225deg, #A200FF, #FF00C1, #FF0068, #FF7300, #FFBF00);
 }
