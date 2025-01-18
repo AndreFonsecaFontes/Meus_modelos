@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+div{
+    border: solid 5px black;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
