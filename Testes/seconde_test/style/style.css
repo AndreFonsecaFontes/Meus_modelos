@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 div{
+    position: relative;
     border: solid 5px black;
     width: 400px;
     height: 400px;
@@ -8,4 +9,9 @@ div{
     margin-right: 50px;
     margin-bottom: 50px;
     text-align: center;
+
+    left: 5%;
+}
+main{
+    position: absolute;
 }
