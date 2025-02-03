@@ -19,10 +19,6 @@ header{
     margin: auto;
 }
 
-button{
-    padding: 10px;
-}
-
 header>h1{
     padding: 13px;
     font-size: 2.2em;
