@@ -12,7 +12,7 @@ body{
 header{
     background-color: #435BB1 ;
     text-align: center;
-    width: 600px;
+    max-width: 600px;
     margin: auto;
     margin-top: 10px;
     border-radius: 5px;
@@ -34,7 +34,7 @@ nav{
     margin: auto;
     margin-top: 10px;
     background-color: rgba(128, 128, 128, 0.297);
-    width: 600px;
+    max-width: 600px;
     border-radius: 5px;
 }
 nav a{
@@ -52,16 +52,17 @@ div{
     position: relative;
     border: solid 5px black;
     width: 400px;
-    height: 400px;
+    height: 420px;
     display: inline-block;
     margin-right: 50px;
     margin-bottom: 50px;
     text-align: center;
-
-    left: 7%;
+    margin: auto;
+    left: 12%;
 }
 img{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
+    margin-top: 5px;
 
 }
