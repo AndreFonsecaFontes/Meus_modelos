@@ -4,55 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test button, link, menu, etc</title>
-    <style>
-        body{
-            background-color: black;
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-        }
-
-        button{
-            color:black;
-            font-size: 1.3em;
-            text-decoration: underline;
-            cursor: pointer;
-            transition-duration: 0.5s;
-            color: black;
-        }
-
-        button:hover{
-            background-color: rgb(236, 107, 236);
-            color: white;
-            padding: 5px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-        .container{
-            position: relative;
-        }
-
-        .button{
-            position: absolute;
-            left: 50%;
-
-            transform: translate(-50%,0);
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <button class="button" onclick="showMenu()">Menu</button>
-        <p></p>
-    </div>
 
+    <header>
+        <h1>Title</h1>
+    </header>
+    <nav class="menu-lateral">
+        <!-- Side Bar -->
+         <div class="home-button">
+            <i class="bi bi-list"></i>
+         </div>
 
-    <script>
-        function showMenu(){
-            const btn = document.querySelector('.button')
-            
-        }
+         <ul>
+            <li class="sideBar-links">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-house "></i></span>
+                    <span class="txt-link">Home</span>
+                </a>
+            </li>
+            <li class="sideBar-links">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-calendar-event "></i></span>
+                    <span class="txt-link">Eventos</span>
+                </a>
+            </li >
+            <li class="sideBar-links">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-briefcase "></i></span>
+                    <span class="txt-link">Quem nós somos</span>
+                </a>
+            </li>
+            <li class="sideBar-links">
+                <a href="#">
+                    <span class="icon"><i class="bi bi-telephone-fill" ></i></span>
+                    <span class="txt-link">Fale Conosco</span>
+                </a>
+            </li>
+         </ul>
+    </nav>
 
-    </script>
 </body>
 </html>
