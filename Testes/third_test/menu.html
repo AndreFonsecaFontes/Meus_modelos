@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test button, link, menu, etc</title>
+    <style>
+        body{
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        button{
+            color:black;
+            font-size: 1.3em;
+            text-decoration: underline;
+            cursor: pointer;
+            transition-duration: 0.5s;
+            color: black;
+        }
+
+        button:hover{
+            background-color: rgb(236, 107, 236);
+            color: white;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .container{
+            position: relative;
+        }
+
+        .button{
+            position: absolute;
+            left: 50%;
+
+            transform: translate(-50%,0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="button" onclick="showMenu()">Menu</button>
+        <p></p>
+    </div>
+
+
+    <script>
+        function showMenu(){
+            const btn = document.querySelector('.button')
+            
+        }
+
+    </script>
+</body>
+</html>
