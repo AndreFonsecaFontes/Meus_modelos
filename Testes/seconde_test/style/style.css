@@ -12,10 +12,8 @@ body{
 header{
     background-color: #435BB1 ;
     text-align: center;
-    max-width: 600px;
     margin: auto;
     margin-top: 10px;
-    border-radius: 5px;
     padding: 15px;
 }
 
@@ -32,10 +30,7 @@ nav{
     text-align: center;
     padding: 15px;
     margin: auto;
-    margin-top: 10px;
     background-color: rgba(128, 128, 128, 0.297);
-    max-width: 600px;
-    border-radius: 5px;
 }
 nav a{
     padding: 5px;
@@ -43,6 +38,17 @@ nav a{
     color: white;
     text-decoration: none;
     border-radius: 2px;
+    
+}
+
+a{
+    transition-duration: 0.4s;
+}
+
+a:hover{
+    padding: 5px;
+    text-decoration: underline;
+    background: #1739b4;
 }
 
 main{
@@ -50,15 +56,15 @@ main{
 }
 div{
     position: relative;
-    border: solid 5px black;
     width: 400px;
     height: 420px;
     display: inline-block;
+    margin-top: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
     text-align: center;
-    margin: auto;
-    left: 12%;
+    left: 7%;
+    
 }
 img{
     width: 350px;
