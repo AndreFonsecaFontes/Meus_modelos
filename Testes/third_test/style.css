@@ -8,20 +8,23 @@
 }
 
 body{
-    background: black;
+    background: #202020;
 }
 
 header{
     color: white;
     text-align: center;
+    font-size: 1.3em;
+    padding: 15px 15px 15px 90px;
+    color: rgb(62, 42, 243);
 }
 
 nav.menu-lateral{
-    width: 80px;
+    width: 90px;
     height: 100%;
     background-color: #202020;
-    padding: 40px 0px 40px 1%;
-    box-shadow: 3px 0 0 #ff0777;
+    padding: 40px 0px 40px 5px;
+    box-shadow: 3px 0 0 rgb(48, 15, 157);
     position: fixed;
     top: 0;
     left: 0;
@@ -35,8 +38,10 @@ nav.menu-lateral:hover{
 
 nav>div.home-button{
     font-size: 2em;
-    margin-left: 25px;
+    margin-left: 30px;
     padding-top: 10px;
+    color: white;
+    margin-bottom: 10px;
     
 }
 
@@ -55,18 +60,58 @@ ul>li.sideBar-links{
 }
 
 ul>li.sideBar-links:hover{
-    background-color: red;
+    background-color: rgb(48, 15, 157);
 }
 
 ul>li.sideBar-links .icon{
     padding-right: 30px;
 }
 
+
+
 ul> li.sideBar-links a{
     color: white;
     text-decoration: none;
     font-size: 1.5em;
     line-height: 100px;
-    padding-left: 30px;
+    padding-left: 33px;
     display: flex;
+    width: 300px;
 }
+
+main{
+    background-color: #202020;
+    min-width: none;
+    padding-left: 105px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.title{
+    text-align: left;
+    color: rgb(17, 17, 209);
+}
+
+.text{
+    background-color: white;
+    text-align: justify;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 5px 5px 89px;
+    margin-top: 5px;
+}
+footer a{
+    color: white;
+}
+
+
+
