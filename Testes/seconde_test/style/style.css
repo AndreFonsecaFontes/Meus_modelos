@@ -6,15 +6,19 @@
 }
 
 body{
-    background-color: rgba(112, 112, 112, 0.259);
+    background-color: #F5F5F5;
 }
 
 header{
-    background-color: #435BB1 ;
+    background-color: #5C55E6 ;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
     padding: 15px;
+    
+}
+
+header>p.mesma-linha{
+    text-align: left;
 }
 
 header>h1{
@@ -22,15 +26,20 @@ header>h1{
     
 }
 
+.mesma-linha{
+    display: inline;
+}
+
 header>p{
     padding-bottom: 10px;
+    padding-top: 50px;
 }
 
 nav{
     text-align: center;
     padding: 15px;
     margin: auto;
-    background-color: rgba(128, 128, 128, 0.297);
+    background-image: linear-gradient(to top, #bd55e6 ,#7d4be0 , #5C55E6);
 }
 nav a{
     padding: 5px;
@@ -41,18 +50,23 @@ nav a{
     
 }
 
-a{
-    transition-duration: 0.4s;
+a.link-site{
+    transition-duration: 0.1s;
 }
 
-a:hover{
-    padding: 5px;
+a.link-site:hover{
+    padding: 7.5px;
     text-decoration: underline;
     background: #1739b4;
 }
 
 main{
-    position: absolute;
+    position: relative;
+    background-color: white;
+    max-width: 1400px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 div{
     position: relative;
@@ -63,12 +77,18 @@ div{
     margin-right: 50px;
     margin-bottom: 50px;
     text-align: center;
-    left: 7%;
-    
+    left: 3.5%;
+    cursor: pointer;
 }
+
 img{
     width: 350px;
     height: 350px;
     margin-top: 5px;
+    border: solid black 2px;
+}
 
+a.first_product{
+    text-decoration: none;
+    color: black;
 }
