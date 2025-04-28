@@ -14,7 +14,10 @@ header{
     text-align: center;
     margin: auto;
     padding: 15px;
-    
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    top: -5px;
 }
 
 header>p.mesma-linha{
@@ -26,13 +29,9 @@ header>h1{
     
 }
 
-.mesma-linha{
-    display: inline;
-}
-
 header>p{
     padding-bottom: 10px;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 nav{
@@ -40,6 +39,10 @@ nav{
     padding: 15px;
     margin: auto;
     background-image: linear-gradient(to top, #bd55e6 ,#7d4be0 , #5C55E6);
+    position: fixed;
+    top: 130px;
+    width: 100vw;
+    z-index: 1000;
 }
 nav a{
     padding: 5px;
@@ -48,6 +51,15 @@ nav a{
     text-decoration: none;
     border-radius: 2px;
     
+}
+a.linkMain{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+a.linkMain:hover{
+    text-decoration: underline;
 }
 
 a.link-site{
@@ -67,10 +79,11 @@ main{
     margin: auto;
     border-radius: 10px;
     margin-top: 10px;
+    top: 200px;
 }
 div{
     position: relative;
-    width: 400px;
+    min-width: 400px;
     height: 420px;
     display: inline-block;
     margin-top: 50px;
@@ -79,6 +92,40 @@ div{
     text-align: center;
     left: 3.5%;
     cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+div#testMenu{
+    display: inline-block;
+    width: 50px;
+    height:37px;
+    font-size: 2em;
+    text-align: left;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    position: fixed;
+    left: 20px;
+    top: -40px;
+    z-index: 1000;
+    cursor: auto;
+}
+
+div#testMenu>p{
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    width: 200px;
+
+}
+
+div#testMenu>p a{
+    padding: 5px;
+}
+
+div#testMenu.testMenu1{
+    height: 168px; 
+    width: 200px;
 }
 
 img{

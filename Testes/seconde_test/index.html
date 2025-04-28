@@ -6,20 +6,29 @@
     <title>Second Test</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
         <header>
-            <p class="mesma-linha">Menu</p>
+
             <h1 class="mesma-linha">Loja Teste</h1>
             <p>Loja Teste de André</p>
         </header>
         <nav>
             <a class="link-site" href="#">Promoções</a>
             <a class="link-site" href="#">Fale Conosco</a>
+            
         </nav>
   
 
     <main>
+        <div id="testMenu"  >
+            <span class="icon " id="menuBut"><i class="bi bi-house " onclick="home()"></i></span>
+            <p><a href="#" class="linkMain">Menu</a> <br>
+                <a href="#" class="linkMain">Masculino</a> <br>
+                <a href="#" class="linkMain">Feminino</a>
+</p>
+        </div>
         <div >
             <a class="first_product" href="t-shirt.html">
                 <img src="imgs/pexels-cottonbro-3692763.jpg" alt="">
@@ -80,5 +89,7 @@
             
         </div>
     </main>
+
+    <script src="script/homePage.js"></script>
 </body>
 </html>
