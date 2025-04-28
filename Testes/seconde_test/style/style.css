@@ -98,7 +98,7 @@ i{
 }
 div#testMenu{
     display: inline-block;
-    width: 50px;
+    width: 200px;
     height:37px;
     font-size: 2em;
     text-align: left;
@@ -138,4 +138,17 @@ img{
 a.first_product{
     text-decoration: none;
     color: black;
+}
+
+footer{
+    color: white;
+    position: relative;
+    margin-top: 170px; /* espaço entre o conteúdo e o footer */
+    padding: 7px;
+    text-align: center;
+    background-color: black; 
+}
+footer a{
+    color: white;
+    font-size: 1.1em;
 }
