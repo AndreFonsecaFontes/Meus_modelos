@@ -34,6 +34,10 @@ header>p{
     padding-top: 20px;
 }
 
+span.menuCart{
+    left: -200px;
+}
+
 nav{
     text-align: center;
     padding: 15px;
@@ -51,6 +55,37 @@ nav a{
     text-decoration: none;
     border-radius: 2px;
     
+}
+
+div#menuCart{
+    display: inline-block;
+    width: 200px;
+    height:37px;
+    font-size: 2em;
+    text-align: left;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    position: fixed;
+    left: 96vw;
+    top: -40px;
+    z-index: 1000;
+    cursor: auto;
+}
+
+div#menuCart > p {
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    width: 200px;
+}
+
+div#menuCart > p a {
+    padding: 5px;
+}
+
+div#menuCart.menuCart1 {
+    height: 168px;
+    width: 200px;
 }
 
 a.first_product{
@@ -79,10 +114,63 @@ a.link-site:hover{
 }
 
 
+
+input.btnPlus{
+     background-color: white;
+     border: solid black 1px;
+     padding: 4px 8px;
+     border-radius: 50%;
+     transition-duration: 0.25s;
+}
+.btnPlus:active{
+    background-color: gray;
+}
+
+input.btnMinus{
+    background-color: white;
+    border: solid black 1px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition-duration: 0.25s;
+}
+.btnMinus:active{
+   background-color: gray;
+}
+
+p.productQuant{
+    font-size: 1.5em;
+    margin: 0 10px;
+
+}
+span.toCart{
+    display: flex;
+    align-items: center;       /* Centraliza verticalmente */
+    justify-content: center;   /* Centraliza horizontalmente */
+    gap: 10px;                 /* Espaço entre os elementos */
+    border: solid 1px black;
+    padding: 10px;
+    background-color: #5c55e667;
+    cursor: default;
+    flex-wrap: wrap;      
+    
+}
+
+button.addToCart{
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #6b17b48b;
+}
+button.addToCart:active{
+    background-color: #bd55e6;
+    transition-duration: 0.12s;
+}
+
+
 footer{
     color: white;
     position: relative;
-    margin-top: 170px; /* espaço entre o conteúdo e o footer */
+    margin-top: 250px;
     padding: 7px;
     text-align: center;
     background-color: black; 
@@ -91,6 +179,9 @@ footer a{
     color: white;
     font-size: 1.1em;
 }
+
+
+
 
 @media (min-width: 1370px){
     main{
@@ -257,8 +348,79 @@ footer a{
         margin-right: 50px;
         margin-bottom: 50px;
         text-align: center;
+        left: 7.5%;
+        cursor: pointer;
+    }
+    i{
+        cursor: pointer;
+    }
+    div#testMenu{
+        display: inline-block;
+        width: 200px;
+        height:37px;
+        font-size: 2em;
+        text-align: left;
+        overflow: hidden;
+        transition-duration: 0.5s;
+        position: fixed;
+        left: 20px;
+        top: -40px;
+        z-index: 1000;
+        cursor: auto;
+    }
+    
+    div#testMenu>p{
+        background-color: white;
+        border-radius: 10px;
+        padding: 8px;
+        width: 200px;
+    
+    }
+    
+    div#testMenu>p a{
+        padding: 5px;
+    }
+    
+    div#testMenu.testMenu1{
+        height: 168px; 
+        width: 200px;
+    }
+    
+    img{
+        width: 350px;
+        height: 350px;
+        margin-top: 5px;
+        border: solid black 2px;
+    }
+    
+    a.first_product{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media (max-width: 500px){
+    main{
+        position: relative;
+        background-color: white;
+        max-width: 1400px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        top: 200px;
+    }
+    div{
+        position: relative;
+        min-width: 400px;
+        height: 420px;
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        text-align: center;
         left: 6.5%;
         cursor: pointer;
+        min-width: 40px;
+
     }
     i{
         cursor: pointer;
