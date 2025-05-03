@@ -502,7 +502,7 @@ footer a{
     }
 }
 
-@media (max-width: 599px){
+@media (max-width: 599px) and (min-width: 400px){
     main{
         position: relative;
         background-color: white;
@@ -609,4 +609,199 @@ footer a{
         text-decoration: none;
         color: black;
     }
+}
+
+@media (max-width: 399px){
+    header{
+        background-color: #5C55E6 ;
+        text-align: center;
+        margin: auto;
+        padding: 15px;
+        position: fixed;
+        width: 100vw;
+        z-index: 1000;
+        top: -5px;
+        height: 50px;
+    }
+    header>p.mesma-linha{
+        text-align: left;
+    }
+    
+    header>h1{
+        padding: 10px;
+        position: relative;
+        left: -10px;
+        cursor:auto;
+        
+    }
+    
+    header>p{
+        padding-bottom: 10px;
+        padding-top: 20px;
+        opacity: 0;
+    }
+    nav{
+        text-align: center;
+        padding: 15px;
+        margin: auto;
+        background-image: linear-gradient(to top, #bd55e6 ,#7d4be0 , #5C55E6);
+        position: fixed;
+        top: 55px;
+        left: -10px;
+        width: 100vw;
+        z-index: 1000;
+        height: 10px;
+    }
+    main{
+        position: relative;
+        background-color: white;
+        max-width: 1400px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        top: 65px;
+    }
+    div{
+        position: relative;
+        min-width: 200px;
+        height: 300px;
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        left: 10vw;
+        cursor: pointer;
+    }
+    i{
+        cursor: pointer;
+    }
+    div#testMenu{
+        display: inline-block;
+        width: 200px;
+        height:37px;
+        font-size: 2em;
+        text-align: left;
+        overflow: hidden;
+        transition-duration: 0.5s;
+        position: fixed;
+        left: 5px;
+        top: -40px;
+        z-index: 1000;
+        cursor: auto;
+    }
+    
+    div#testMenu>p{
+        background-color: white;
+        border-radius: 10px;
+        padding: 8px;
+        width: 200px;
+    
+    }
+    
+    div#testMenu>p a{
+        padding: 5px;
+    }
+    
+    div#testMenu.testMenu1{
+        height: 168px; 
+        width: 200px;
+    }
+
+
+    span.cartMenu2
+    {
+        top: 9px;
+        left: 84vw;
+        position: fixed;
+    }
+
+    div#menuCart{
+        display: inline-block;
+        width: 200px;
+        height: 0px;
+        font-size: 2em;
+        text-align: left;
+        overflow: hidden;
+        left: 16vw;
+        transition-duration: 0.5s;
+        position: fixed;
+        top: -5px;
+        z-index: 1000;
+        cursor: auto;
+
+    }
+
+
+    div#menuCart > p {
+        background-color: white;
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    div#menuCart > p a {
+        padding: 5px;
+    }
+
+    div#menuCart.menuCart1 {
+        height: 250px;
+        width: 350px;
+    }
+
+
+    
+    img{
+        max-width: 100px;
+        height: 100px;
+        margin-top: 5px;
+        border: solid black 2px;
+    }
+    
+    a.first_product{
+        text-decoration: none;
+        color: black;
+    }
+
+    input.btnPlus, .btnPlus2, .btnPlus3{
+        background-color: white;
+        border: solid black 1px;
+        padding: 2px 4px;
+        border-radius: 50%;
+        transition-duration: 0.25s;
+   }
+
+    input.btnMinus, .btnMinus2, .btnMinus3{
+        background-color: white;
+        border: solid black 1px;
+        padding: 2.5px   5px;
+        border-radius: 50%;
+        transition-duration: 0.25s;
+}
+
+    p.productQuant, .productQuant2, .productQuant3{
+        font-size: 1em;
+        margin: 0 10px;
+    }
+
+    button.addToCart, button.addToCart2, button.addToCart3{
+        border: 0;
+        padding: 2.5px;
+        border-radius: 5px;
+        background-color: #6b17b48b;
+    }
+
+    span.toCart{
+        position: relative;
+        display: flex;
+        align-items: center;       /* Centraliza verticalmente */
+        justify-content: center;   /* Centraliza horizontalmente */
+        gap: 10px;                 /* Espaço entre os elementos */
+        border: solid 1px black;
+        padding: 5px;
+        background-color: #5c55e667;
+        cursor: default;
+        flex-wrap: wrap;   
+        width: 100px;
+        left: 65px;   
+    }
+
 }
