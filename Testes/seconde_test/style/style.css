@@ -57,6 +57,12 @@ nav a{
     
 }
 
+span.cartMenu2
+{
+    position: relative;
+    left: 24vw;
+}
+
 div#menuCart{
     display: inline-block;
     width: 200px;
@@ -64,19 +70,20 @@ div#menuCart{
     font-size: 2em;
     text-align: left;
     overflow: hidden;
+    left: 70vw;
     transition-duration: 0.5s;
     position: fixed;
-    left: 96vw;
     top: -40px;
     z-index: 1000;
     cursor: auto;
+
 }
+
 
 div#menuCart > p {
     background-color: white;
     border-radius: 10px;
     padding: 8px;
-    width: 200px;
 }
 
 div#menuCart > p a {
@@ -84,9 +91,10 @@ div#menuCart > p a {
 }
 
 div#menuCart.menuCart1 {
-    height: 168px;
-    width: 200px;
+    height: 250px;
+    width: 350px;
 }
+
 
 a.first_product{
     text-decoration: none;
@@ -115,33 +123,43 @@ a.link-site:hover{
 
 
 
-input.btnPlus{
+input.btnPlus, .btnPlus2, .btnPlus3{
      background-color: white;
      border: solid black 1px;
      padding: 4px 8px;
      border-radius: 50%;
      transition-duration: 0.25s;
 }
-.btnPlus:active{
+.btnPlus:active, .btnPlus2:active, .btnPlus3:active{
     background-color: gray;
 }
 
-input.btnMinus{
+input.btnMinus, .btnMinus2, .btnMinus3{
     background-color: white;
     border: solid black 1px;
     padding: 5px 10px;
     border-radius: 50%;
     transition-duration: 0.25s;
 }
-.btnMinus:active{
+.btnMinus:active, .btnMinus2:active, .btnMinus3:active{
    background-color: gray;
 }
 
 p.productQuant{
     font-size: 1.5em;
     margin: 0 10px;
-
 }
+
+p.productQuant2{
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+p.productQuant3{
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
 span.toCart{
     display: flex;
     align-items: center;       /* Centraliza verticalmente */
@@ -155,13 +173,13 @@ span.toCart{
     
 }
 
-button.addToCart{
+button.addToCart, button.addToCart2, button.addToCart3{
     border: 0;
     padding: 5px;
     border-radius: 5px;
     background-color: #6b17b48b;
 }
-button.addToCart:active{
+button.addToCart:active, .addToCart2:active, .addToCart3:active{
     background-color: #bd55e6;
     transition-duration: 0.12s;
 }
