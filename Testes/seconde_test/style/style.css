@@ -57,43 +57,7 @@ nav a{
     
 }
 
-span.cartMenu2
-{
-    position: relative;
-    left: 24vw;
-}
 
-div#menuCart{
-    display: inline-block;
-    width: 200px;
-    height:37px;
-    font-size: 2em;
-    text-align: left;
-    overflow: hidden;
-    left: 70vw;
-    transition-duration: 0.5s;
-    position: fixed;
-    top: -40px;
-    z-index: 1000;
-    cursor: auto;
-
-}
-
-
-div#menuCart > p {
-    background-color: white;
-    border-radius: 10px;
-    padding: 8px;
-}
-
-div#menuCart > p a {
-    padding: 5px;
-}
-
-div#menuCart.menuCart1 {
-    height: 250px;
-    width: 350px;
-}
 
 
 a.first_product{
@@ -198,7 +162,16 @@ footer a{
     font-size: 1.1em;
 }
 
-
+.txt{
+    background-color: white;
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+    top: -50px;
+    left: 2px;
+}
 
 
 @media (min-width: 1370px){
@@ -257,6 +230,46 @@ footer a{
         height: 168px; 
         width: 200px;
     }
+
+    span.cartMenu2
+    {
+        top: 10px;
+        left: 96.5vw;
+        position: fixed;
+    }
+
+    div#menuCart{
+        display: inline-block;
+        width: 200px;
+        height: 0px;
+        font-size: 2em;
+        text-align: left;
+        overflow: hidden;
+        left: 73vw;
+        transition-duration: 0.5s;
+        position: fixed;
+        top: -5px;
+        z-index: 1000;
+        cursor: auto;
+
+    }
+
+
+    div#menuCart > p {
+        background-color: white;
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    div#menuCart > p a {
+        padding: 5px;
+    }
+
+    div#menuCart.menuCart1 {
+        height: 250px;
+        width: 350px;
+    }
+    
     
     img{
         width: 350px;
@@ -271,8 +284,8 @@ footer a{
     }
     
 }
-@media (min-width: 920px) and (max-width: 1373px) {
-    main {
+@media (min-width: 920px) and (max-width: 1375px) {
+    main{
         position: relative;
         background-color: white;
         max-width: 1400px;
@@ -280,30 +293,25 @@ footer a{
         border-radius: 10px;
         margin-top: 10px;
         top: 200px;
-        text-align: center; 
     }
-
-    div {
+    div{
         position: relative;
         min-width: 400px;
         height: 420px;
-        display: inline-block;
         margin-top: 50px;
         margin-right: 50px;
         margin-bottom: 50px;
         text-align: center;
-        cursor: pointer;
-        left: 3.7%;
-    }
-
-    i {
+        left: 4%;
         cursor: pointer;
     }
-
-    div#testMenu {
+    i{
+        cursor: pointer;
+    }
+    div#testMenu{
         display: inline-block;
         width: 200px;
-        height: 37px;
+        height:37px;
         font-size: 2em;
         text-align: left;
         overflow: hidden;
@@ -314,41 +322,187 @@ footer a{
         z-index: 1000;
         cursor: auto;
     }
-
-    div#testMenu > p {
+    
+    div#testMenu>p{
         background-color: white;
         border-radius: 10px;
         padding: 8px;
         width: 200px;
+    
     }
-
-    div#testMenu > p a {
+    
+    div#testMenu>p a{
         padding: 5px;
     }
-
-    div#testMenu.testMenu1 {
-        height: 168px;
+    
+    div#testMenu.testMenu1{
+        height: 168px; 
         width: 200px;
     }
 
-    img {
+
+    span.cartMenu2
+    {
+        top: 10px;
+        left: 96vw;
+        position: fixed;
+    }
+
+    div#menuCart{
+        display: inline-block;
+        width: 200px;
+        height: 0px;
+        font-size: 2em;
+        text-align: left;
+        overflow: hidden;
+        left: 69vw;
+        transition-duration: 0.5s;
+        position: fixed;
+        top: -5px;
+        z-index: 1000;
+        cursor: auto;
+
+    }
+
+
+    div#menuCart > p {
+        background-color: white;
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    div#menuCart > p a {
+        padding: 5px;
+    }
+
+    div#menuCart.menuCart1 {
+        height: 250px;
+        width: 350px;
+    }
+    
+    img{
         width: 350px;
         height: 350px;
         margin-top: 5px;
         border: solid black 2px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
-
-    a.first_product {
+    
+    a.first_product{
         text-decoration: none;
         color: black;
     }
 }
 
+@media (max-width: 919px) and (min-width: 600px){
+    main{
+        position: relative;
+        background-color: white;
+        max-width: 1400px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        top: 200px;
+    }
+    div{
+        position: relative;
+        min-width: 400px;
+        height: 420px;
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        left: 5.5%;
+        cursor: pointer;
+    }
+    i{
+        cursor: pointer;
+    }
+    div#testMenu{
+        display: inline-block;
+        width: 200px;
+        height:37px;
+        font-size: 2em;
+        text-align: left;
+        overflow: hidden;
+        transition-duration: 0.5s;
+        position: fixed;
+        left: 20px;
+        top: -40px;
+        z-index: 1000;
+        cursor: auto;
+    }
+    
+    div#testMenu>p{
+        background-color: white;
+        border-radius: 10px;
+        padding: 8px;
+        width: 200px;
+    
+    }
+    
+    div#testMenu>p a{
+        padding: 5px;
+    }
+    
+    div#testMenu.testMenu1{
+        height: 168px; 
+        width: 200px;
+    }
 
-@media (max-width: 919px){
+
+    span.cartMenu2
+    {
+        top: 10px;
+        left: 93vw;
+        position: fixed;
+    }
+
+    div#menuCart{
+        display: inline-block;
+        width: 200px;
+        height: 0px;
+        font-size: 2em;
+        text-align: left;
+        overflow: hidden;
+        left: 46vw;
+        transition-duration: 0.5s;
+        position: fixed;
+        top: -5px;
+        z-index: 1000;
+        cursor: auto;
+
+    }
+
+
+    div#menuCart > p {
+        background-color: white;
+        border-radius: 10px;
+        padding: 8px;
+    }
+
+    div#menuCart > p a {
+        padding: 5px;
+    }
+
+    div#menuCart.menuCart1 {
+        height: 250px;
+        width: 350px;
+    }
+    
+    img{
+        width: 350px;
+        height: 350px;
+        margin-top: 5px;
+        border: solid black 2px;
+    }
+    
+    a.first_product{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media (max-width: 599px){
     main{
         position: relative;
         background-color: white;
@@ -403,76 +557,45 @@ footer a{
         height: 168px; 
         width: 200px;
     }
-    
-    img{
-        width: 350px;
-        height: 350px;
-        margin-top: 5px;
-        border: solid black 2px;
-    }
-    
-    a.first_product{
-        text-decoration: none;
-        color: black;
-    }
-}
 
-@media (max-width: 500px){
-    main{
-        position: relative;
-        background-color: white;
-        max-width: 1400px;
-        margin: auto;
-        border-radius: 10px;
-        margin-top: 10px;
-        top: 200px;
-    }
-    div{
-        position: relative;
-        min-width: 400px;
-        height: 420px;
-        margin-top: 50px;
-        margin-right: 50px;
-        margin-bottom: 50px;
-        text-align: center;
-        left: 6.5%;
-        cursor: pointer;
-        min-width: 40px;
 
+    span.cartMenu2
+    {
+        top: 10px;
+        left: 90vw;
+        position: fixed;
     }
-    i{
-        cursor: pointer;
-    }
-    div#testMenu{
+
+    div#menuCart{
         display: inline-block;
         width: 200px;
-        height:37px;
+        height: 0px;
         font-size: 2em;
         text-align: left;
         overflow: hidden;
+        left: 16vw;
         transition-duration: 0.5s;
         position: fixed;
-        left: 20px;
-        top: -40px;
+        top: -5px;
         z-index: 1000;
         cursor: auto;
+
     }
-    
-    div#testMenu>p{
+
+
+    div#menuCart > p {
         background-color: white;
         border-radius: 10px;
         padding: 8px;
-        width: 200px;
-    
     }
-    
-    div#testMenu>p a{
+
+    div#menuCart > p a {
         padding: 5px;
     }
-    
-    div#testMenu.testMenu1{
-        height: 168px; 
-        width: 200px;
+
+    div#menuCart.menuCart1 {
+        height: 250px;
+        width: 350px;
     }
     
     img{
