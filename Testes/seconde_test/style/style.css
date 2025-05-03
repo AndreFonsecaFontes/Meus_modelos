@@ -26,7 +26,6 @@ header>p.mesma-linha{
 
 header>h1{
     padding: 10px;
-    
 }
 
 header>p{
@@ -561,7 +560,7 @@ footer a{
 
     span.cartMenu2
     {
-        top: 10px;
+        top: 9px;
         left: 90vw;
         position: fixed;
     }
