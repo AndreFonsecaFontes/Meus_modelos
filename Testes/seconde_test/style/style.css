@@ -267,6 +267,7 @@ footer a{
     div#menuCart.menuCart1 {
         height: 250px;
         width: 350px;
+        cursor: auto;
     }
     
     
@@ -749,8 +750,8 @@ footer a{
 
     
     img{
-        max-width: 100px;
-        height: 100px;
+        max-width: 200px;
+        height: 200px;
         margin-top: 5px;
         border: solid black 2px;
     }
@@ -799,8 +800,8 @@ footer a{
         background-color: #5c55e667;
         cursor: default;
         flex-wrap: wrap;   
-        width: 100px;
-        left: 65px;   
+        min-width: 100px;
+        text-align: center;
     }
 
 }
