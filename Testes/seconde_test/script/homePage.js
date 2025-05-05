@@ -64,6 +64,9 @@ allProd.forEach((product) => {
         btnAddToCart2.addEventListener('click', () => {
             let quantidade = quantDisplay_2.innerHTML;
             txtCart12.innerHTML = 'Regatas: ' + quantidade;
+            if (txtCart11.innerHTML.includes('Seu carrinho está vazio')) {
+                txtCart11.innerHTML = '';
+            }
         });
     }
 
@@ -71,25 +74,12 @@ allProd.forEach((product) => {
         btnAddToCart3.addEventListener('click', () => {
             let quantidade = quantDisplay_3.innerHTML;
             txtCart13.innerHTML = 'Calças: ' + quantidade;
-        });
-    }
-    if (btnAddToCart2) {
-        btnAddToCart2.addEventListener('click', () => {
             if (txtCart11.innerHTML.includes('Seu carrinho está vazio')) {
                 txtCart11.innerHTML = '';
             }
-            txtCart12.innerHTML = 'Regatas: ' + quantDisplay_2.innerHTML;
         });
     }
 
-    if (btnAddToCart3) {
-        btnAddToCart3.addEventListener('click', () => {
-            if (txtCart11.innerHTML.includes('Seu carrinho está vazio')) {
-                txtCart11.innerHTML = '';
-            }
-            txtCart13.innerHTML = 'Calças: ' + quantDisplay_3.innerHTML;
-        });
-    }
 });
 
 
