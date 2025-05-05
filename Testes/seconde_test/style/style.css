@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 body{
@@ -233,7 +234,7 @@ footer a{
     span.cartMenu2
     {
         top: 10px;
-        left: 96.5vw;
+        left: 96vw;
         position: fixed;
     }
 
@@ -244,7 +245,7 @@ footer a{
         font-size: 2em;
         text-align: left;
         overflow: hidden;
-        left: 73vw;
+        left: 72vw;
         transition-duration: 0.5s;
         position: fixed;
         top: -5px;
@@ -453,7 +454,7 @@ footer a{
     span.cartMenu2
     {
         top: 10px;
-        left: 93vw;
+        left: 90vw;
         position: fixed;
     }
 
@@ -464,7 +465,7 @@ footer a{
         font-size: 2em;
         text-align: left;
         overflow: hidden;
-        left: 46vw;
+        left: 50vw;
         transition-duration: 0.5s;
         position: fixed;
         top: -5px;
@@ -669,7 +670,7 @@ footer a{
         margin-right: 50px;
         margin-bottom: 50px;
         text-align: center;
-        left: 10vw;
+        left: 8.3vw;
         cursor: pointer;
     }
     i{
@@ -717,12 +718,13 @@ footer a{
 
     div#menuCart{
         display: inline-block;
+        position: fixed;
         width: 200px;
         height: 0px;
         font-size: 2em;
         text-align: left;
         overflow: hidden;
-        left: 16vw;
+        left: 42vw;
         transition-duration: 0.5s;
         position: fixed;
         top: -5px;
