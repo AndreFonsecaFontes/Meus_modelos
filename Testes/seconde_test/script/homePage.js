@@ -56,14 +56,14 @@ allProd.forEach((product) => {
     if (btnAddToCart && quantDisplay_) {
         btnAddToCart.addEventListener('click', () => {
             let quantidade = quantDisplay_.innerHTML;
-            txtCart11.innerHTML = 'Camisetas: ' + quantidade;
+            txtCart11.innerHTML = '<img src="imgs/pexels-cottonbro-3692763.jpg" alt="" style="width: 60px; height: 60px; position: relative; "> Camisetas: ' + quantidade;
         });
     }
 
     if (btnAddToCart2 && quantDisplay_2) {
         btnAddToCart2.addEventListener('click', () => {
             let quantidade = quantDisplay_2.innerHTML;
-            txtCart12.innerHTML = 'Regatas: ' + quantidade;
+            txtCart12.innerHTML = ' <img src="imgs/pexels-rdne-12169163.jpg" alt="" style="width: 60px; height: 60px; position: relative; ">Regatas: ' + quantidade;
             if (txtCart11.innerHTML.includes('Seu carrinho está vazio')) {
                 txtCart11.innerHTML = '';
             }
@@ -73,7 +73,7 @@ allProd.forEach((product) => {
     if (btnAddToCart3 && quantDisplay_3) {
         btnAddToCart3.addEventListener('click', () => {
             let quantidade = quantDisplay_3.innerHTML;
-            txtCart13.innerHTML = 'Calças: ' + quantidade;
+            txtCart13.innerHTML = '<img src="imgs/pexels-heitorverdifotos-2343661.jpg" alt="" style="width: 60px; height: 60px; position: relative; "> Calças: ' + quantidade;
             if (txtCart11.innerHTML.includes('Seu carrinho está vazio')) {
                 txtCart11.innerHTML = '';
             }
